@@ -1,0 +1,73 @@
+h1{
+    color:#000000;
+   font-size:35px;
+   font-family:Garamond;
+    }
+h2{
+    color:#0054bb;
+    font-size:25px;
+    font-family:Garamond;
+}
+
+ul {
+ list-style-type: none;
+ margin: 4;
+ padding: 2;
+ overflow: hidden;
+ background-color:#D3D3D3;
+ }
+
+ li{
+ float: left;
+ }
+
+ li a {
+  display: block;
+  color:#000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+
+  li a hover{
+  background-color:#D3D3D3;
+  }
+
+#heading2{
+
+    font-size:35px;
+    margin:5 auto;
+  }
+
+/* Container for the grid */
+.grid-container {
+    display: grid; /* Enables CSS Grid layout */
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+    grid-template-rows: repeat(3, 1fr);    /* Creates 3 equal-height rows */
+    gap: 10px; /* Adds space between grid items */
+    margin: 0 auto; /* Centers the grid on the page */
+}
+
+figcaption {
+  text-align:center;
+  color:#000000;
+  padding: 5px;
+}
+
+/* Styling for each grid item (the divs containing the images) */
+.grid-item {
+    display: flex; /* Centers the image within the grid item */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for the images within the grid items */
+.grid-item img {
+    height: auto; /* Maintains the image's aspect ratio */
+    object-fit: cover; /* Crops the image to fill the container while preserving aspect ratio */
+}
+
+h3{
+font-size:15px;
+color:#0b539b;
+}
